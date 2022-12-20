@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="Microsoft-Windows-Lean-RemovalCandidates-Package" version="10.0.18362.1500" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="Microsoft-Windows-Lean-RemovalCandidates-es-MX" releaseType="Language Pack">
+    <parent disposition="detect" integrate="delegate">
+      <assemblyIdentity name="Microsoft-Windows-Lean-RemovalCandidates-Package" version="10.0.18362.1500" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <update name="Microsoft-Client-License-Platform-Migration-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Client-License-Platform-Migration-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Clipboard-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Clipboard-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Clipboard-Extensions-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Clipboard-Extensions-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Composable-PlatformExtension-ConsentExperienceCommon-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Composable-PlatformExtension-ConsentExperienceCommon-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Composable-PlatformExtension-DragDropDataExchange-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Composable-PlatformExtension-DragDropDataExchange-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Composable-PlatformExtension-MiracastBannerExperience-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Composable-PlatformExtension-MiracastBannerExperience-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Media-Capture-Internal-BroadcastDVR-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Media-Capture-Internal-BroadcastDVR-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-AuthzHelper-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-AuthzHelper-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Cellcore-Data-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Cellcore-Data-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Cellcore-Data-Desktop-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Cellcore-Data-Desktop-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-ConsentUx-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-ConsentUx-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-DAFWiProv-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-DAFWiProv-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Onecore-Directory-Services-SAM-MOF-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Onecore-Directory-Services-SAM-MOF-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Flighting-OneSettingsClient-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Flighting-OneSettingsClient-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Graphics-Display-DisplayEnhancementService-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Graphics-Display-DisplayEnhancementService-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-InputProcessors-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-InputProcessors-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-InputProcessors-Settings-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-InputProcessors-Settings-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-NetworkDataUsage-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-NetworkDataUsage-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Networking-XboxLive-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Networking-XboxLive-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-ResourceMapping-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-ResourceMapping-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-SystemSettings-Usb-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-SystemSettings-Usb-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Telephony-UniversalComponents-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Telephony-UniversalComponents-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-TroubleShooting-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-TroubleShooting-Package" version="10.0.18362.1237" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Update-UX-Desktop-UserPredictionModel-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Update-UX-Desktop-UserPredictionModel-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-UPnP-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-UPnP-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-Verifier-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-Verifier-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-OneCore-WSD-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-OneCore-WSD-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ADSI-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ADSI-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Casting-Platform-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Casting-Platform-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-CleanMgr-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-CleanMgr-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Client-AssignedAccess-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Client-AssignedAccess-Package" version="10.0.18362.1411" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ClientPerf-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ClientPerf-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-CoreSystem-DebugTransports-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-CoreSystem-DebugTransports-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DataExchange-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DataExchange-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DbgTransports-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DbgTransports-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DefaultProgramsUI-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DefaultProgramsUI-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Defrag-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Defrag-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DevicePairing-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DevicePairing-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DiagnosticExecution-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DiagnosticExecution-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DirectInput-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DirectInput-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DisplayControl-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DisplayControl-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-DisplayPolicy-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-DisplayPolicy-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-EAS-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-EAS-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ELS-Hyphenation-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ELS-Hyphenation-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-FireWall-UI-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-FireWall-UI-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Help-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Help-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-HyperV-Guest-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-HyperV-Guest-Package" version="10.0.18362.1500" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-HypervisorEnforcedCodeIntegrity-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-HypervisorEnforcedCodeIntegrity-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ImageAcquisition-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ImageAcquisition-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-InternetExplorer-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-InternetExplorer-Package" version="11.0.18362.1474" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-InternetExplorer-Required-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-InternetExplorer-Required-Package" version="11.0.18362.1411" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-MCAST-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-MCAST-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-MDAC-Core-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-MDAC-Core-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-MSI-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-MSI-Package" version="10.0.18362.1474" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-NetFx-VCRedist-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-NetFx-VCRedist-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-OptionalFeatures-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-OptionalFeatures-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-PhotoBasic-PictureTools-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-PhotoBasic-PictureTools-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-PNPX-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-PNPX-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-PredictionUnit-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-PredictionUnit-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Printer-Drivers-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Printer-Drivers-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Printing-DafIpp-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Printing-DafIpp-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Printing-PortMon-Client-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Printing-PortMon-Client-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Printing-WSD-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Printing-WSD-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ProfApi-DesktopCompat-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ProfApi-DesktopCompat-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Provisioning-Platform-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Provisioning-Platform-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ReadyBoost-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ReadyBoost-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-RecoveryCenter-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-RecoveryCenter-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-SDKTools-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SDKTools-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-SecureStartup-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SecureStartup-Package" version="10.0.18362.628" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-SecurityCenter-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SecurityCenter-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-ShellOptions-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-ShellOptions-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-SKU-Foundation-Package-avcore-noindeo-DirectShow-Group-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SKU-Foundation-Package-avcore-noindeo-DirectShow-Group-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-SKU-Foundation-Package-avcore-noindeo-Other-Group-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SKU-Foundation-Package-avcore-noindeo-Other-Group-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-SMB1-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SMB1-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-StorageService-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-StorageService-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-StorageSpaces-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-StorageSpaces-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-SystemMaintenance-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-SystemMaintenance-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-TabletPC-IHM-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-TabletPC-IHM-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-TabShellExperience-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-TabShellExperience-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-TroubleShooting-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-TroubleShooting-Package" version="10.0.18362.1474" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-TS-APPX-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-TS-APPX-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-TS-Broker-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-TS-Broker-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-TS-RDP-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-TS-RDP-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-Xwizards-Package">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-Xwizards-Package" version="10.0.18362.1" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+  </package>
+</assembly>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          /*
+ * Copyright 2013 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package org.gradle.api.internal.file.copy;
+
+import groovy.lang.Closure;
+import org.gradle.api.Transformer;
+import org.gradle.api.file.ContentFilterable;
+import org.gradle.api.file.DuplicatesStrategy;
+import org.gradle.api.file.FileVisitDetails;
+import org.gradle.api.file.RelativePath;
+import org.gradle.api.internal.file.AbstractFileTreeElement;
+import org.gradle.internal.nativeintegration.filesystem.Chmod;
+
+import java.io.*;
+import java.util.Map;
+
+public class DefaultFileCopyDetails extends AbstractFileTreeElement implements FileVisitDetails, FileCopyDetailsInternal {
+    private final FileVisitDetails fileDetails;
+    private final CopySpecResolver specResolver;
+    private final FilterChain filterChain;
+    private RelativePath relativePath;
+    private boolean excluded;
+    private Integer mode;
+    private DuplicatesStrategy duplicatesStrategy;
+
+    public DefaultFileCopyDetails(FileVisitDetails fileDetails, CopySpecResolver specResolver, Chmod chmod) {
+        super(chmod);
+        this.filterChain = new FilterChain(specResolver.getFilteringCharset());
+        this.fileDetails = fileDetails;
+        this.specResolver = specResolver;
+        this.duplicatesStrategy = specResolver.getDuplicatesStrategy();
+    }
+
+    public boolean isIncludeEmptyDirs() {
+        return specResolver.getIncludeEmptyDirs();
+    }
+
+    public String getDisplayName() {
+        return fileDetails.toString();
+    }
+
+    public void stopVisiting() {
+        fileDetails.stopVisiting();
+    }
+
+    public File getFile() {
+        if (filterChain.hasFilters()) {
+            throw new UnsupportedOperationException();
+        } else {
+            return fileDetails.getFile();
+        }
+    }
+
+    public boolean isDirectory() {
+        return fileDetails.isDirectory();
+    }
+
+    public long getLastModified() {
+        return fileDetails.getLastModified();
+    }
+
+    public long getSize() {
+        if (filterChain.hasFilters()) {
+            ByteCountingOutputStream outputStream = new ByteCountingOutputStream();
+            copyTo(outputStream);
+            return outputStream.size;
+        } else {
+            return fileDetails.getSize();
+        }
+    }
+
+    public InputStream open() {
+        if (filterChain.hasFilters()) {
+            return filterChain.transform(fileDetails.open());
+        } else {
+            return fileDetails.open();
+        }
+    }
+
+    public void copyTo(OutputStream output) {
+        if (filterChain.hasFilters()) {
+            super.copyTo(output);
+        } else {
+            fileDetails.copyTo(output);
+        }
+    }
+
+    public boolean copyTo(File target) {
+        if (filterChain.hasFilters()) {
+            return super.copyTo(target);
+        } else {
+            final boolean copied = fileDetails.copyTo(target);
+            adaptPermissions(target);
+            return copied;
+        }
+    }
+
+    private void adaptPermissions(File target) {
+        int specMode = getMode();
+        getChmod().chmod(target, specMode);
+    }
+
+    public RelativePath getRelativePath() {
+        if (relativePath == null) {
+            RelativePath path = fileDetails.getRelativePath();
+            relativePath = specResolver.getDestPath().append(path.isFile(), path.getSegments());
+        }
+        return relativePath;
+    }
+
+    public int getMode() {
+        if (mode != null) {
+            return mode;
+        }
+
+        Integer specMode = getSpecMode();
+        if (specMode != null) {
+            return specMode;
+        }
+
+        return fileDetails.getMode();
+    }
+
+    private Integer getSpecMode() {
+        return fileDetails.isDirectory() ? specResolver.getDirMode() : specResolver.getFileMode();
+    }
+
+    public void setRelativePath(RelativePath path) {
+        this.relativePath = path;
+    }
+
+    public void setName(String name) {
+        relativePath = getRelativePath().replaceLastName(name);
+    }
+
+    public void setPath(String path) {
+        relativePath = RelativePath.parse(getRelativePath().isFile(), path);
+    }
+
+    boolean isExcluded() {
+        return excluded;
+    }
+
+    public void exclude() {
+        excluded = true;
+    }
+
+    public void setMode(int mode) {
+        this.mode = mode;
+    }
+
+    public ContentFilterable filter(Closure closure) {
+        return filter(new ClosureBackedTransformer(closure));
+    }
+
+    @Override
+    public ContentFilterable filter(Transformer<String, String> transformer) {
+        filterChain.add(transformer);
+        return this;
+    }
+
+    public ContentFilterable filter(Map<String, ?> properties, Class<? extends FilterReader> filterType) {
+        filterChain.add(filterType, properties);
+        return this;
+    }
+
+    public ContentFilterable filter(Class<? extends FilterReader> filterType) {
+        filterChain.add(filterType);
+        return this;
+    }
+
+    public ContentFilterable expand(Map<String, ?> properties) {
+        filterChain.expand(properties);
+        return this;
+    }
+
+    public void setDuplicatesStrategy(DuplicatesStrategy strategy) {
+        this.duplicatesStrategy = strategy;
+    }
+
+    public DuplicatesStrategy getDuplicatesStrategy() {
+        return this.duplicatesStrategy;
+    }
+
+    public String getSourceName() {
+        return this.fileDetails.getName();
+    }
+
+    public String getSourcePath() {
+        return this.fileDetails.getPath();
+    }
+
+    public RelativePath getRelativeSourcePath() {
+        return this.fileDetails.getRelativePath();
+    }
+
+    private static class ByteCountingOutputStream extends OutputStream {
+        long size;
+
+        @Override
+        public void write(int b) throws IOException {
+            size++;
+        }
+
+        @Override
+        public void write(byte[] b) throws IOException {
+            size += b.length;
+        }
+
+        @Override
+        public void write(byte[] b, int off, int len) throws IOException {
+            size += len;
+        }
+    }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

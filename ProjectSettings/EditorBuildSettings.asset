@@ -1,0 +1,127 @@
+<?php
+
+/*
+ * Copyright 2012 Johannes M. Schmitt <schmittjoh@gmail.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace PhpOption;
+
+use ArrayAccess;
+use IteratorAggregate;
+
+/**
+ * @template T
+ *
+ * @implements IteratorAggregate<T>
+ */
+abstract class Option implements IteratorAggregate
+{
+    /**
+     * Creates an option given a return value.
+     *
+     * This is intended for consuming existing APIs and allows you to easily
+     * convert them to an option. By default, we treat ``null`` as the None
+     * case, and everything else as Some.
+     *
+     * @template S
+     *
+     * @param S $value     The actual return value.
+     * @param S $noneValue The value which should be considered "None"; null by
+     *                     default.
+     *
+     * @return Option<S>
+     */
+    public static function fromValue($value, $noneValue = null)
+    {
+        if ($value === $noneValue) {
+            return None::create();
+        }
+
+        return new Some($value);
+    }
+
+    /**
+     * Creates an option from an array's value.
+     *
+     * If the key does not exist in the array, the array is not actually an
+     * array, or the array's value at the given key is null, None is returned.
+     * Otherwise, Some is returned wrapping the value at the given key.
+     *
+     * @template S
+     *
+     * @param array<string|int,S>|ArrayAccess<string|int,S>|null $array A potential array or \ArrayAccess value.
+     * @param string                                             $key   The key to check.
+     *
+     * @return Option<S>
+     */
+    public static function fromArraysValue($array, $key)
+    {
+        if (!(is_array($array) || $array instanceof ArrayAccess) || !isset($array[$key])) {
+            return None::create();
+        }
+
+        return new Some($array[$key]);
+    }
+
+    /**
+     * Creates a lazy-option with the given callback.
+     *
+     * This is also a helper constructor for lazy-consuming existing APIs where
+     * the return value is not yet an option. By default, we treat ``null`` as
+     * None case, and everything else as Some.
+     *
+     * @template S
+     *
+     * @param callable $callback  The callback to evaluate.
+     * @param array    $arguments The arguments for the callback.
+     * @param S        $noneValue The value which should be considered "None";
+    *                             null by default.
+     *
+     * @return LazyOption<S>
+     */
+    public static function fromReturn($callback, array $arguments = [], $noneValue = null)
+    {
+        return new LazyOption(static function () use ($callback, $arguments, $noneValue) {
+            /** @var mixed */
+            $return = call_user_func_array($callback, $arguments);
+
+            if ($return === $noneValue) {
+                return None::create();
+            }
+
+            return new Some($return);
+        });
+    }
+
+    /**
+     * Option factory, which creates new option based on passed value.
+     *
+     * If value is already an option, it simply returns. If value is callable,
+     * LazyOption with passed callback created and returned. If Option
+     * returned from callback, it returns directly. On other case value passed
+     * to Option::fromValue() method.
+     *
+     * @template S
+     *
+     * @param Option<S>|callable|S $value
+     * @param S                    $noneValue Used when $value is mixed or
+     *                                        callable, for None-check.
+     *
+     * @return Option<S>|LazyOption<S>
+     */
+    public static function ensure($value, $noneValue = null)
+    {
+        if ($value instanceof self) {
+           
