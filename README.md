@@ -2,9 +2,11 @@
 This is a game based on the local mills (12 men morris) game. Its a two player zero sum game played on a board with 12 pieces per player. 
 The pieces used to play this particular one are stones and crowns, hence the name.
 
+**Note: I recently had a problem with git on this project and some assets got messed up. It won't compile or play for now but I will fix within the month Jan 2023.**
+
 ## Project Status
 <p align="center">
-<img src="https://img.shields.io/badge/development-Halted-orange" alt="development status"/>
+<img src="https://img.shields.io/badge/development-Halted-red" alt="development status"/>
 </p>
 
 ## Technology Used
